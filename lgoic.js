@@ -1,5 +1,9 @@
 window.addEventListener("load", colorWow);
 
+function toHex(i){
+	return '#' + i.toString(16);
+}
+
 function colorWow() {
     var elements = document.getElementsByClassName("rainbow");
     for (let i = 0; i < elements.length; i++) {
